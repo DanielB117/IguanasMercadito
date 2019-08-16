@@ -61,17 +61,16 @@ public class Maind {
 
                         System.out.println("             FACTURA             ");
                         System.out.println("---------------------------------");
-                        System.out.println("       Super Mercado Iguanas     ");
+                        System.out.println("       Super Mercado     ");
                         System.out.println("       Mall las aguas negras     ");
-                        System.out.println(" Juan Pablo Segundo, Tegucigalpa ");
-                        System.out.println("       Tel: +504 3159-7473       ");
-                        System.out.println("Correo: \nIguanaSupermercado@gmail.com");
+                        System.out.println(" Tegucigalpa ");
+                        System.out.println("       Tel: +504 88989899       ");
                         DateFormat hourdateFormat = new SimpleDateFormat("hh:mm:ss a dd/MM/yyyy");
                         Date date = new Date();
                         System.out.println(hourdateFormat.format(date));
                         System.out.println("Nombre: " + nombre);
                         System.out.println("RTN: " + RTN);
-                        System.out.println("       Cajero: Andrew Escobar    ");
+                        System.out.println("       Cajero: Daniel betancourth   ");
                         Pila.MostrarProductos();
                         System.out.println("Subtotal: ");
                         System.out.println("Impuestos total 15%: ");
@@ -96,14 +95,14 @@ public class Maind {
                         System.out.println(hourdateFormat.format(date));
                         System.out.println("Nombre: ND" );
                         System.out.println("RTN: ND");
-                        System.out.println("       Cajero: Daniel Betancourth    ");
+                        System.out.println("Cajero: Daniel Betancourth    ");
                         Pila.MostrarProductos();
                         System.out.println("Subtotal: ");
                         System.out.println("Impuestos total 15%: ");
                         System.out.println("Total: ");
                         System.out.println("Total en Dolares: ");
                         System.out.println("");
-                        System.out.println("Copia: Obligado tributario emisor");
+                        System.out.println("Copia: Obligado emisor");
                         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
                         System.out.println("        - Cuenta Cerrada -       ");
                         System.out.println("");

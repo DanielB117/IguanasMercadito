@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Menu { public int menu() {
 
     System.out.println("========================MENU==========================");
+
     System.out.println("1. PRODUCTOS ");
     System.out.println("2. CLIENTES ");
     System.out.println("3. FACTURA ");
