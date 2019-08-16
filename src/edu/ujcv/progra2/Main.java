@@ -38,7 +38,7 @@ public class  Main {
                             opcion = menuu.MenuDeProductos();
                             switch(opcion) {
                                 case 1:
-                                    Intro.IntroProducto();
+                                    Intro.IntroduccirProducto();
                                     break;
                                 case 2:
                                     Intro.ImpresionDeProducto();

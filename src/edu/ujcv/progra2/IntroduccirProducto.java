@@ -6,7 +6,7 @@ public class IntroduccirProducto {
     private Scanner Sc = new Scanner(System.in);
     private DymArray<Producto> pda = new DymArray<>();
 
-    public void IntroProducto() {
+    public void IntroduccirProducto() {
         System.out.println("cuantos productos quiere introducir? ");
         int h = Sc.nextInt();
         for (int i = 0; i < h; i++) {
