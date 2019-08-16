@@ -8,13 +8,13 @@ public class Menu { public int menu() {
     System.out.println("1. PRODUCTOS ");
     System.out.println("2. CLIENTES ");
     System.out.println("3. FACTURA ");
-    System.out.println("0. SALIR");
+    System.out.println("4. SALIR");
     int opcion = 0;
-    while ((opcion < 1) || (opcion > 6)) {
+    while ((opcion < 1) || (opcion > 5)) {
         System.out.println("Favor Ingresar Una Opcion : ");
         Scanner Sc = new Scanner(System.in);
         opcion = Sc.nextInt();
-        if ((opcion < 1) || (opcion > 6)) {
+        if ((opcion < 1) || (opcion > 5)) {
             System.out.println("Opcion No Invalida.");
         }
     }
@@ -26,7 +26,7 @@ public class Menu { public int menu() {
         System.out.println("");
         Scanner Sc = new Scanner(System.in);
         System.out.println("MENU");
-        System.out.println("==================MENU DE CLIENTES==============");
+        System.out.println("MENU DE CLIENTES");
         System.out.println("1. AGREGAR CLIENTE ");
         System.out.println("2. VER CLIENTE ");
         System.out.println("3. ELIMINAR CLIENTE ");
@@ -64,14 +64,8 @@ public class Menu { public int menu() {
     }
     public int MenuDeFactura(){
         int opcion = 0;
-        while ((opcion < 1) || (opcion > 6)) {
-            System.out.println("Favor Ingresar Una Opcion : ");
-            Scanner Sc = new Scanner(System.in);
-            opcion = Sc.nextInt();
-            if ((opcion < 1) || (opcion > 6)) {
-                System.out.println("Opcion No Invalida.");
-            }
-        }
+        double subTotal;
+        System.out.println("Menu");
         return opcion;
     }
 }

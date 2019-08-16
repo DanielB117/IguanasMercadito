@@ -72,11 +72,16 @@ public class  Main {
                                     break;
                                 case 5:
                                 default:
-                                    System.out.println("Saliendo...");
+                                    System.out.println("Saliendo");
                             }
                         }
                     case 3:
+double SubTotal;
 
+break;
+                    case 4:
+                    default:
+                        System.out.println("Saliendo");
                 }
             }
 
