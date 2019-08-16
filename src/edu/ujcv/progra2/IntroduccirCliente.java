@@ -2,17 +2,17 @@ package edu.ujcv.progra2;
 
 import java.util.Scanner;
 
-public class IntroCliente {
+public class IntroduccirCliente {
     private Scanner Sc = new Scanner(System.in);
     private DymArray<Cliente> pda = new DymArray<Cliente>();
 
-    public void IntroCliente() {
+    public void IntroducirCliente() {
 
         System.out.println("NOMBRE DEL CLIENTE DEL SUPERMERCADITO: ");
         String setNombreDeCliente = Sc.next();
         System.out.println("Ingrese codigo cliente");
-        int codigo = Sc.nextInt();
-        pda.add(new Cliente(setNombreDeCliente, codigo));
+        int NumeroDeCodigo = Sc.nextInt();
+        pda.add(new Cliente(setNombreDeCliente, NumeroDeCodigo));
     }
 
     public void ImpresionDeClientes() {
@@ -44,8 +44,8 @@ public class IntroCliente {
         System.out.println("NOMBRE DEL CLIENTE DEL SUPERMERCADITO: ");
         String setNombreDeCliente = Sc.next();
         System.out.println("Ingrese codigo cliente");
-        int codigo = Sc.nextInt();
-        pda.add(new Cliente(setNombreDeCliente, codigo));
+        int NumeroDeCodigo = Sc.nextInt();
+        pda.add(new Cliente(setNombreDeCliente, NumeroDeCodigo));
     }
 
 }

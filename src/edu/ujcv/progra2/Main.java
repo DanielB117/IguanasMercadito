@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class  Main {
 
     public static void main(String[] args) {
-
         // write your code here
         float precio = 0;
         String nombre = null;

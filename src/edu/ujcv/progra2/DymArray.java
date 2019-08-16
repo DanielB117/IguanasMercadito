@@ -7,14 +7,14 @@ public class DymArray <T>implements Lista<T> {
 
 
     public DymArray() {
-        this.mItems = (T[]) new Object[40];
+        this.mItems = (T[]) new  Object[40];
         mSize = 0;
     }
 
     private void grow() {
 
         // E[] arr = (E[])new Object[INITIAL_ARRAY_LENGTH];
-        T[] temp = (T[]) new Object[mItems.length * 2];
+        T[] temp = (T[]) new  Object[mItems.length * 2];
         for (int i = 0; i < mItems.length; i++) {
             temp[i] = mItems[i];
         }
@@ -23,7 +23,7 @@ public class DymArray <T>implements Lista<T> {
 
     @Override
     public void add(T data) {
-        if (mSize >= mItems.length) {
+        if(mSize >= mItems.length){
             grow();
         }
         mItems[mSize] = data;
@@ -37,13 +37,13 @@ public class DymArray <T>implements Lista<T> {
 
     @Override
     public T remove(int index) {
-        if (index >= mSize)
+        if(index >= mSize)
             return null;
         T retval = mItems[index];
 
 
-        for (int i = index + 1; i < mSize; i++) {
-            mItems[i - 1] = mItems[i];
+        for (int i = index + 1; i < mSize ; i++) {
+            mItems[i-1] = mItems[i];
         }
         mSize--;
         return retval;
